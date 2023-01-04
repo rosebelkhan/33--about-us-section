@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+.alignleft{
+    float: left;
+    margin-right: 15px;
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter{
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 15px;
+    font-weight: 900;
+}
+body{
+    /* background: #2D3142; */
+    font-family: 'Raleway', sans-serif;
+} 
+
+/* --section style sheet start-- */
+
+.full-width-bg-area{
+    background-image: url('../css/img/post3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-padding{
+    padding: 50px 0;
+}
+
+.full-width-bg-area {
+    margin: 70px 0;
+}
+
+.margin-minus {
+    margin: -70px 0px;
+    padding: 100px 50px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.dark-bg {
+    background: #2D3142;
+    margin: -70px 0px;
+    color: #fff;
+}
+
+a.bordered-btn {
+    display: inline-block;
+    border: 1px solid lightgoldenrodyellow;
+    padding: 8px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    /* background: #111; */
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.boxed-content h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h4.author-name {
+    font-family: roboto;
+    font-size: 18px;
+    margin-top: 30px;
+    position: relative;
+    padding-left: 40px;
+}
+
+h4.author-name span {
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+h4.author-name:before {
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background: #fff;
+    content: '';
+    left: 0%;
+    top: 50%;
+    margin-top: -2px;
+}
+
+.boxed-content {
+    position: relative;
+}
+
+.boxed-content:before {
+    position: absolute;
+    left: -5%;
+    top: -10%;
+    width: 40px;
+    height: 40px;
+    content: '';
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+.boxed-content:after {
+    position: absolute;
+    right: 0%;
+    bottom: -10%;
+    width: 40px;
+    height: 40px;
+    content: '';
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
